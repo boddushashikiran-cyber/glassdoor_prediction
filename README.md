@@ -1,37 +1,37 @@
-# 💼 Glassdoor Tech Job Salary Predictor
+#  Glassdoor Tech Job Salary Predictor
 
 Predicts average tech job salaries using the Glassdoor Jobs Dataset (2017-2018).
 Built as part of an AI/ML internship project.
 
-## 🔧 Setup & Run Locally
+##  Setup & Run 
 
-### 1. Clone the repo
+### 1. Cloned the repo
 ```bash
 git clone https://github.com/yourusername/glassdoor-salary-prediction.git
 cd glassdoor-salary-prediction
 ```
 
-### 2. Install dependencies
+### 2. Installed dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Train the model (generates .pkl files)
+### 3. Trained the model (generates .pkl files)
 ```bash
 python train.py
 ```
 
-### 4. Launch the app
+### 4. Launched the app
 ```bash
 streamlit run app.py
 ```
 
-## 🚀 Deploy on Streamlit Cloud (Free)
+## Deployed on Streamlit Cloud 
 
-1. Push this entire repo to GitHub (including the `.pkl` files after running `train.py`)
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and sign in with GitHub
-3. Click **New app** → select your repo → set **Main file path** to `app.py`
-4. Click **Deploy** — live in ~2 minutes
+1. Pushed this entire repo to GitHub (including the `.pkl` files after running `train.py`)
+2. In [streamlit.io/cloud](https://streamlit.io/cloud) signed in with GitHub
+3. Clicked **New app** → selected the repo → set **Main file path** to `app.py`
+4. Deployed
 
 ## 📁 Project Structure
 
