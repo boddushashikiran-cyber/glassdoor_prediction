@@ -33,7 +33,7 @@ streamlit run app.py
 3. Clicked **New app** → selected the repo → set **Main file path** to `app.py`
 4. Deployed
 
-## 📁 Project Structure
+## Project Structure
 
 | File | Description |
 |------|-------------|
@@ -43,7 +43,7 @@ streamlit run app.py
 | `glassdoor_salary_prediction.ipynb` | Full EDA + ML notebook submission |
 | `requirements.txt` | Python dependencies |
 
-## 🧠 Model
+## Model
 
 Gradient Boosting Regressor (scikit-learn) with:
 - Log-transformed target (avg_salary)
